@@ -158,7 +158,12 @@ kitcart.clearToken();
 ```
 ___
 ## 🧪 Local Test File
-Run node test.js to try sample API calls from your own store.
+An example `test.js` file is included to demonstrate basic API calls. Replace the `storeId` in the file with your own and run:
+```bash
+node test.js
+```
+
+This will fetch a few products from your store and print them to the console.
 ___
 
 ## 🛠️ Contributing
