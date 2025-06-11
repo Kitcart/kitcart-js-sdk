@@ -1,0 +1,25 @@
+{
+  "name": "kitcart-js-sdk",
+  "version": "1.0.0",
+  "description": "JavaScript SDK for the Kitcart API (theme integration ready)",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": ["kitcart", "ecommerce", "sdk", "javascript", "api"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^9.28.0",
+    "prettier": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kitcart/kitcart-js-sdk"
+  },
+  "bugs": {
+    "url": "https://github.com/Kitcart/kitcart-js-sdk/issues"
+  },
+  "homepage": "https://github.com/Kitcart/kitcart-js-sdk#readme"
+}
