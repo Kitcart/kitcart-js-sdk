@@ -22,9 +22,10 @@ const kitcart = new Kitcart({
   token: 'optional_bearer_token' // You can set it later too
 });
 
+```
+___
 
-
-🔐 Authentication
+## 🔐 Authentication
 
 
 // Login
