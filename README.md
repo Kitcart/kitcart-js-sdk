@@ -138,6 +138,18 @@ await kitcart.blog.getBlogs({ limit: 5 });
 await kitcart.blog.postComment(blogId, 'Great post!', 5);
 ```
 ___
+## 🏬 Store
+```js
+await kitcart.store.getStoreDetails();
+await kitcart.store.submitContactForm({
+  name: 'John Doe',
+  phone_number: '08012345678',
+  email_address: 'john@example.com',
+  subject: 'Inquiry',
+  message: 'Hello!',
+});
+```
+___
 ## 📌 Token Management
 ```js
 

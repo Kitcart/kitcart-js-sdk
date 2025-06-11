@@ -8,6 +8,7 @@ import paymentsModule from './modules/payments.js';
 import ordersModule from './modules/orders.js';
 import billingModule from './modules/billing.js';
 import blogModule from './modules/blog.js';
+import storeModule from './modules/store.js';
 
 
 export default class Kitcart {
@@ -29,6 +30,7 @@ export default class Kitcart {
     this.orders = ordersModule(this.http);
     this.billing = billingModule(this.http);
     this.blog = blogModule(this.http);
+    this.store = storeModule(this.http);
   }
 
   setToken(token) {
