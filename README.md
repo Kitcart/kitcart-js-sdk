@@ -166,6 +166,17 @@ node test.js
 This will fetch a few products from your store and print them to the console.
 ___
 
+## 🧹 Linting & Formatting
+
+Run ESLint to check code quality and Prettier to format files:
+
+```bash
+npm run lint
+npm run format
+```
+
+___
+
 ## 🛠️ Contributing
 Pull requests and suggestions welcome. Make sure to keep modules modular and light.
 
