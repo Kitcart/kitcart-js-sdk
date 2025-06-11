@@ -149,6 +149,17 @@ ___
 Run node test.js to try sample API calls from your own store.
 ___
 
+## 🧹 Linting & Formatting
+
+Run ESLint to check code quality and Prettier to format files:
+
+```bash
+npm run lint
+npm run format
+```
+
+___
+
 ## 🛠️ Contributing
 Pull requests and suggestions welcome. Make sure to keep modules modular and light.
 

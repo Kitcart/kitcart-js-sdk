@@ -21,5 +21,10 @@
   "bugs": {
     "url": "https://github.com/Kitcart/kitcart-js-sdk/issues"
   },
-  "homepage": "https://github.com/Kitcart/kitcart-js-sdk#readme"
+  "homepage": "https://github.com/Kitcart/kitcart-js-sdk#readme",
+  "scripts": {
+    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint .",
+    "format": "prettier --write ."
+  }
 }
+
