@@ -56,19 +56,29 @@ ___
 await kitcart.products.getProducts({ limit: 8 });
 await kitcart.products.searchProducts({ searchTerm: 'shoes' });
 await kitcart.products.getCategories();
-❤️ Wishlist
+```
+___
 
+## ❤️ Wishlist
+```js
 
 await kitcart.wishlist.getWishlists();
 await kitcart.wishlist.toggleWishlist({ product: 1234 });
-🛒 Cart
+```
+___
 
+## 🛒 Cart
+```js
 
 await kitcart.cart.getCart();
 await kitcart.cart.updateCart({ product: 1234, quantity: 2 });
-📦 Checkout
 
+```
+___
 
+## 📦 Checkout
+
+```js
 await kitcart.checkout.getCheckoutData();
 await kitcart.checkout.getStatesByCountry(160);
 await kitcart.checkout.getDistrictsByState(10);
@@ -90,7 +100,6 @@ await kitcart.payments.verifyFlutterwave(orderId, reference);
 await kitcart.payments.verifyPaystack(orderId, reference);
 
 ```
-
 ___
 
 ## 📑 Orders
@@ -121,18 +130,21 @@ await kitcart.billing.createBilling({
 await kitcart.billing.getBillings();
 
 ```
+___
 ## 📝 Blog & Comments
 ```js
 
 await kitcart.blog.getBlogs({ limit: 5 });
 await kitcart.blog.postComment(blogId, 'Great post!', 5);
 ```
+___
 ## 📌 Token Management
 ```js
 
 kitcart.setToken('Bearer YOUR_TOKEN');
 kitcart.clearToken();
 ```
+___
 ## 🧪 Local Test File
 Run node test.js to try sample API calls from your own store.
 ___
