@@ -1,17 +1,17 @@
-📦 Kitcart JS SDK
-A lightweight JavaScript SDK for integrating with the Kitcart API. Use this to build custom themes, plugins, or full e-commerce frontends with ease.
+# 📦 Kitcart JS SDK
 
+[![npm version](https://img.shields.io/npm/v/kitcart-sdk?color=blue)](https://www.npmjs.com/package/kitcart-sdk)
+[![GitHub stars](https://img.shields.io/github/stars/Kitcart/kitcart-js-sdk?style=social)](https://github.com/Kitcart/kitcart-js-sdk)
 
-🔧 Installation
+A lightweight JavaScript SDK for integrating with the [Kitcart API](https://usekitcart.com).  
+Use this to build custom themes, plugins, or full e-commerce frontends with ease.
 
-npm install kitcart-js-sdk
-Or, if you're not publishing yet, clone locally:
+---
 
+## 🔧 Installation
 
-git clone https://github.com/yourusername/kitcart-js-sdk.git
-cd kitcart-js-sdk
-npm install
-
+```bash
+npm install kitcart-sdk
 
 🚀 Quick Start
 
