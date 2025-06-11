@@ -13,10 +13,14 @@ Use this to build custom themes, plugins, or full e-commerce frontends with ease
 ```bash
 npm install kitcart-sdk
 
-🚀 Quick Start
+```
+___
 
-import Kitcart from 'kitcart-js-sdk'; // or from './src/index.js' in local dev
+### 🚀 Quick Start
 
+```js
+
+import Kitcart from 'kitcart-sdk';
 const kitcart = new Kitcart({
   storeId: 'your_store_id',
   token: 'optional_bearer_token' // You can set it later too
@@ -27,6 +31,7 @@ ___
 
 ## 🔐 Authentication
 
+```js
 
 // Login
 const loginResponse = await kitcart.auth.login(email, password);
@@ -38,8 +43,15 @@ await kitcart.auth.register(name, email, password, phone);
 
 // Get logged in user
 const user = await kitcart.auth.getSelf();
-🛍️ Products & Search
 
+
+```
+___
+
+## 🛍️ Products & Search
+
+
+```js
 
 await kitcart.products.getProducts({ limit: 8 });
 await kitcart.products.searchProducts({ searchTerm: 'shoes' });
@@ -64,15 +76,26 @@ await kitcart.checkout.getShippingPrice({
   total_amount: 10000,
   country: 160,
 });
-💰 Payments
 
+
+```
+___
+
+## 💰 Payments
+
+```js
 
 await kitcart.payments.getKitpayBanks();
 await kitcart.payments.verifyFlutterwave(orderId, reference);
 await kitcart.payments.verifyPaystack(orderId, reference);
 
+```
 
-📑 Orders
+___
+
+## 📑 Orders
+
+```js
 
 await kitcart.orders.createOrder({
   id: 'store_id',
@@ -81,8 +104,13 @@ await kitcart.orders.createOrder({
   shipping_method: 3
 });
 await kitcart.orders.getOrders();
-🧾 Billing
-js
+
+```
+___
+
+## 🧾 Billing
+
+```js
 
 await kitcart.billing.createBilling({
   name: 'John Doe',
@@ -91,19 +119,24 @@ await kitcart.billing.createBilling({
   country: 160,
 });
 await kitcart.billing.getBillings();
-📝 Blog & Comments
-js
+
+```
+## 📝 Blog & Comments
+```js
 
 await kitcart.blog.getBlogs({ limit: 5 });
 await kitcart.blog.postComment(blogId, 'Great post!', 5);
-📌 Token Management
-js
+```
+## 📌 Token Management
+```js
 
 kitcart.setToken('Bearer YOUR_TOKEN');
 kitcart.clearToken();
-🧪 Local Test File
+```
+## 🧪 Local Test File
 Run node test.js to try sample API calls from your own store.
+___
 
-🛠️ Contributing
+## 🛠️ Contributing
 Pull requests and suggestions welcome. Make sure to keep modules modular and light.
 
